@@ -1,5 +1,7 @@
 import * as React from "react"
 import type { HeadFC, PageProps } from "gatsby"
+import { Link } from "gatsby"
+import "../styles.css"
 
 const pageStyles = {
   color: "#232129",
@@ -61,18 +63,6 @@ const descriptionStyle = {
   lineHeight: 1.25,
 }
 
-const docLinks = [
-  {
-    text: "TypeScript Documentation",
-    url: "https://www.gatsbyjs.com/docs/how-to/custom-configuration/typescript/",
-    color: "#8954A8",
-  },
-  {
-    text: "GraphQL Typegen Documentation",
-    url: "https://www.gatsbyjs.com/docs/how-to/local-development/graphql-typegen/",
-    color: "#8954A8",
-  }
-]
 
 const badgeStyle = {
   color: "#fff",
@@ -90,14 +80,19 @@ const badgeStyle = {
   lineHeight: 1,
 }
 
-
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <main style={pageStyles}>
       <h1 style={headingAccentStyles}>Maikel The Dev</h1>
       <h2 style={headingStyles}>Full Stack Developer and Cloud Architect</h2>
-      <p style={paragraphStyles}>At the moment this is just a blank page. Soon that will change</p>
-          </main>
+      <div className="typewriter">
+        <p>At the moment this is just a blank page. Soon that will change
+        </p>
+        <p>Expect everything to be broken</p>
+      </div>
+      <Link style={docLinkStyle} to="/about">About</Link>
+      <Link style={docLinkStyle} to="/posts">Posts</Link>
+    </main>
   )
 }
 
