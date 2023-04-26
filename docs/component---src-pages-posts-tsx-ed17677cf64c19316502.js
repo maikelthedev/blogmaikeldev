@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkmaikel_the_dev=self.webpackChunkmaikel_the_dev||[]).push([[754],{234:function(e,t,l){l.r(t),l.d(t,{Head:function(){return s}});var n=l(7294);const a={color:"#232129",padding:96,fontFamily:"-apple-system, Roboto, sans-serif, serif"};t.default=()=>n.createElement("main",{style:a},n.createElement("h1",null,"Maikel The Dev"),n.createElement("p",null,"Some blog page"));const s=()=>n.createElement("title",null,"Blog")}}]);
-//# sourceMappingURL=component---src-pages-posts-tsx-ed17677cf64c19316502.js.map

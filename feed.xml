@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>Maikel The Dev</title>
+    <link href="https://www.maikel.uk/feed.xml" rel="self" />
+    <link href="https://www.maikel.uk" />
+    <updated>2023-04-26T23:21:18+02:00</updated>
+    <author>
+        <name>Maikel Frias Mosquea</name>
+    </author>
+    <id>https://www.maikel.uk</id>
+
+    <entry>
+        <title>Once upon a time</title>
+        <author>
+            <name>Maikel Frias Mosquea</name>
+        </author>
+        <link href="https://www.maikel.uk/once-upon-a-time.html"/>
+        <id>https://www.maikel.uk/once-upon-a-time.html</id>
+
+        <updated>2023-04-26T23:21:18+02:00</updated>
+            <summary>
+                <![CDATA[
+                    Just a test post. 
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Just a test post. </p>
+            ]]>
+        </content>
+    </entry>
+</feed>

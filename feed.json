@@ -1,0 +1,27 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Maikel The Dev",
+    "description": "",
+    "home_page_url": "https://www.maikel.uk",
+    "feed_url": "https://www.maikel.uk/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Maikel Frias Mosquea"
+    },
+    "items": [
+        {
+            "id": "https://www.maikel.uk/once-upon-a-time.html",
+            "url": "https://www.maikel.uk/once-upon-a-time.html",
+            "title": "Once upon a time",
+            "summary": "Just a test post. ",
+            "content_html": "<p>Just a test post. </p>",
+            "author": {
+                "name": "Maikel Frias Mosquea"
+            },
+            "tags": [
+            ],
+            "date_published": "2023-04-26T23:21:18+02:00",
+            "date_modified": "2023-04-26T23:21:18+02:00"
+        }
+    ]
+}
