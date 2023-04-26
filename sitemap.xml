@@ -8,4 +8,12 @@
 <loc>https://www.maikel.uk/once-upon-a-time.html</loc>
 <lastmod>2023-04-26T23:21:18+02:00</lastmod>
 </url>
+<url>
+<loc>https://www.maikel.uk/test-2.html</loc>
+<lastmod>2023-04-26T23:57:24+02:00</lastmod>
+<image:image>
+<image:loc>https://www.maikel.uk/media/posts/2/me.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
 </urlset>

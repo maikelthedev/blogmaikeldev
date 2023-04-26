@@ -3,12 +3,36 @@
     <title>Maikel The Dev</title>
     <link href="https://www.maikel.uk/feed.xml" rel="self" />
     <link href="https://www.maikel.uk" />
-    <updated>2023-04-26T23:21:18+02:00</updated>
+    <updated>2023-04-26T23:57:24+02:00</updated>
     <author>
         <name>Maikel Frias Mosquea</name>
     </author>
     <id>https://www.maikel.uk</id>
 
+    <entry>
+        <title>Test 2</title>
+        <author>
+            <name>Maikel Frias Mosquea</name>
+        </author>
+        <link href="https://www.maikel.uk/test-2.html"/>
+        <id>https://www.maikel.uk/test-2.html</id>
+        <media:content url="https://www.maikel.uk/media/posts/2/me.jpg" medium="image" />
+
+        <updated>2023-04-26T23:57:24+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://www.maikel.uk/media/posts/2/me.jpg" alt="" />
+                    Just testing a post with a featured image and some SEO Pic is me in Kyoto's garden on Holland's Park. 
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://www.maikel.uk/media/posts/2/me.jpg" class="type:primaryImage" alt="" /></p>
+                <p>Just testing a post with a featured image and some SEO</p>
+<p>Pic is me in Kyoto's garden on Holland's Park. </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Once upon a time</title>
         <author>

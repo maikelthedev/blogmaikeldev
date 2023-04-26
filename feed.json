@@ -10,6 +10,21 @@
     },
     "items": [
         {
+            "id": "https://www.maikel.uk/test-2.html",
+            "url": "https://www.maikel.uk/test-2.html",
+            "title": "Test 2",
+            "summary": "Just testing a post with a featured image and some SEO Pic is me in Kyoto's garden on Holland's Park. ",
+            "content_html": "<p>Just testing a post with a featured image and some SEO</p>\n<p>Pic is me in Kyoto's garden on Holland's Park. </p>",
+            "image": "https://www.maikel.uk/media/posts/2/me.jpg",
+            "author": {
+                "name": "Maikel Frias Mosquea"
+            },
+            "tags": [
+            ],
+            "date_published": "2023-04-26T23:57:24+02:00",
+            "date_modified": "2023-04-26T23:57:24+02:00"
+        },
+        {
             "id": "https://www.maikel.uk/once-upon-a-time.html",
             "url": "https://www.maikel.uk/once-upon-a-time.html",
             "title": "Once upon a time",
