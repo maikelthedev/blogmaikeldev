@@ -3,7 +3,7 @@
     <title>Maikel&#x27;s Blog</title>
     <link href="https://blog.maikel.dev/feed.xml" rel="self" />
     <link href="https://blog.maikel.dev" />
-    <updated>2023-06-26T15:05:05+02:00</updated>
+    <updated>2023-06-26T15:43:13+02:00</updated>
     <author>
         <name>Maikel</name>
     </author>
@@ -32,6 +32,150 @@
                 <p>So this is my blog, you don't see them but all of the Wordpress files I had in the past are now here. </p>
 <p>Now I'm trying to reorganise the whole thing so it does make some sense, which it doesn't currently.</p>
 <p>Then I'm breaking maikel.uk down and starting to work with maikel.dev. This site should be in blog.maikel.dev</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Goals and whys</title>
+        <author>
+            <name>Maikel</name>
+        </author>
+        <link href="https://blog.maikel.dev/goals-and-whys.html"/>
+        <id>https://blog.maikel.dev/goals-and-whys.html</id>
+        <media:content url="https://blog.maikel.dev/media/posts/5/ronnie-overgoor-EdKCckXXRCI-unsplash1.jpg" medium="image" />
+
+        <updated>2023-06-26T15:43:13+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.maikel.dev/media/posts/5/ronnie-overgoor-EdKCckXXRCI-unsplash1.jpg" alt="" />
+                    Learn German: Business reasons, German is rich. I'd like to move all my business to that country. Learn French. I like French guys. Grow your business Get 1 extra client. Not from the UK. Goal keeping Design a method to track your goals Keep a&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.maikel.dev/media/posts/5/ronnie-overgoor-EdKCckXXRCI-unsplash1.jpg" class="type:primaryImage" alt="" /></p>
+                <ul>
+<li>Learn German:<br>Business reasons, German is rich. I'd like to move all my business to that country.</li>
+<li>Learn French. <br>I like French guys.</li>
+<li>Grow your business<br>Get 1 extra client. Not from the UK.</li>
+</ul>
+<h2 id="goal-keeping">Goal keeping</h2>
+<ul>
+<li>Design a method to track your goals</li>
+</ul>
+<p>Keep a one year plan.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Applying TDD to body perfection</title>
+        <author>
+            <name>Maikel</name>
+        </author>
+        <link href="https://blog.maikel.dev/applying-tdd-to-body-perfection.html"/>
+        <id>https://blog.maikel.dev/applying-tdd-to-body-perfection.html</id>
+        <media:content url="https://blog.maikel.dev/media/posts/4/farhad-ibrahimzade-qgGc_1a6xGc-unsplash.jpg" medium="image" />
+            <category term="dieting"/>
+
+        <updated>2023-06-26T15:41:15+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.maikel.dev/media/posts/4/farhad-ibrahimzade-qgGc_1a6xGc-unsplash.jpg" alt="" />
+                    The goal Have a body that I'm happy with. I want to know my body better and end this laziness that keeps increasing with time. Getting into the habit. You need to do it many times to find fun ways to do it and reach&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.maikel.dev/media/posts/4/farhad-ibrahimzade-qgGc_1a6xGc-unsplash.jpg" class="type:primaryImage" alt="" /></p>
+                <h1 id="the-goal">The goal</h1>
+<p>Have a body that I'm happy with. I want to know my body better and end this laziness that keeps increasing with time.</p>
+<h3 id="what-is-a-body-that-i-am-happy-with-the-specifics">What is a body that I am happy with? The specifics</h3>
+<ol>
+<li>One where my body fat is below 10% yet I still weight between 70 to 80 kgs.</li>
+<li>One where the number of absolute kgs of fat in the body decreases (currently:  5.5kgs).</li>
+<li>One where the number of absolute kgs of muscle in the body increases (currently: 56.8 kgs).</li>
+<li>One where I can exercise everyday without it being a chore or too tiring.</li>
+<li>One where my back and neck don't hurt after being sat in a chair for 8 hours.</li>
+<li>One where the bed is no longer my office.</li>
+<li>One where my armpits are healed.</li>
+<li>One without this ugly double neck.</li>
+</ol>
+<h3 id="directives">Directives</h3>
+<ul>
+<li>Stay within the 73kgs margin for now. Play within the same weight.</li>
+<li>Exercises must be able to be done at home with no special equipment.</li>
+<li>Use the same Tabita bath scale forever to see consistent results.</li>
+<li>Simplify the figures you look at on a paper in the wall.</li>
+<li>Fasting should be kept because it works improving the armpits.</li>
+<li>Use <a href="https://www.healthline.com/nutrition/body-recomposition">body recomposition</a>.  </li>
+</ul>
+<h3 id="weaknesses">Weaknesses:</h3>
+<ul>
+<li>Finding a way to exercise that is engaging enough.</li>
+<li>Tiredness could fuck an entire day of training.</li>
+<li>Doing exercises that don't work or exercise that do but are too hard.</li>
+<li>Changing the list too much of exercises because it wasn't prepared enough.</li>
+<li>Using a gym that doesn't have the machines I need.</li>
+</ul>
+<h3 id="actions-to-get-there">Actions to get there:</h3>
+<h4 id="dieting-decisions">Dieting decisions:</h4>
+<ul>
+<li>Eat lean. That means high-protein food, no fat.</li>
+<li>Eat only until 73.9kgs can't eat anything past that.</li>
+<li>Go down max to 72.0 if you want 2kgs to play with.</li>
+</ul>
+<h4 id="exercising-decisions">Exercising decisions:</h4>
+<ul>
+<li>Prioritize exercise that use the whole body.</li>
+<li>No cardio, only strength training, the best way to lose fat forever is by increase the muscle that consumes it. This is a replacement diet.</li>
+<li>Focus on isometric training as that's the simplest and easiest to do at home. &lt;- But not the best to build muscle quickly.</li>
+<li>Don't skip legs as that's where you have the most muscle and therefore where it is easier to burn most total body fat.</li>
+<li>Make it fun.</li>
+<li>Running is bad for armpits.</li>
+</ul>
+<h1 id="stages">Stages</h1>
+<h2 id="stage-1">Stage 1</h2>
+<p>Getting into the habit. You need to do it many times to find fun ways to do it and reach permanent 18% body fat.</p>
+<h1 id="log-progress">Log Progress</h1>
+<p>Read with this <a href="https://docs.google.com/spreadsheets/d/19Xeamc8OTBD0AiHEXzbhozHG46uJzExPtdxVuzSbsRg/edit#gid=0">https://docs.google.com/spreadsheets/d/19Xeamc8OTBD0AiHEXzbhozHG46uJzExPtdxVuzSbsRg/edit#gid=0</a></p>
+<h3 id="week-1-3rd-may">Week 1: 3rd May:</h3>
+<p>I'm frustrated because I ate little fat yet I'm still the 500 grams more according to the scale. I'm drinking more water and more protein. <br>I'm wondering whether  it is mandatory I add cardio. I don't want those 6kgs of fat in my body. I remember I ate a lot of nuts so that might be part of the issue. Exercising I'm sure it is not the issue.</p>
+<p>I don't think the numbers are accurate since I've got the exact same measure of belly circumference (88cms) after having eaten. I think the scale measures differently when I started drinking more water. There's no chance I've lost muscle and added fat when I see myself visibly smaller in the mirror.</p>
+<p>It might be that the fact my intestines are full (I'm drinking more protein more often) is the reason the scale is thinking I'm fatter.</p>
+<p>Maybe I should try dry fasting. Because of <a href="https://www.marksdailyapple.com/guide-to-dry-fasting/">this</a></p>
+<blockquote>The drop in waist circumference was particularly large—about eight centimeters by day five</blockquote>
+<p>There's even a study that correlates with the results <a href="https://www.karger.com/article/FullText/505201">here</a></p>
+<p>So I'm going to try to do a 5-day dry fast to see if it has any effect on my waist circumference. I'm using an app to track it. They key would be to entertain myself enough to follow it through.</p>
+<h3 id="week-2-10th-of-may">Week 2: 10th of May.</h3>
+<p>I've lost 3 cms of belly circumference (85cms now) which is a decent improvement. I failed at doing 5 days of dry fasting but managed to do it twice, once 24 full hours, the second 20 full hours. It worked quite nicely.</p>
+<p>Apparently I've lost 500 grams of belly fat and now I'm on 5.5 kgs. Body fat has also lowered to 19.5% and it's starting to get rare to see it above 20%.</p>
+<p>Throughout the week muscle mass has been first really low then getting higher until reaching 55.6 kgs. It's like if I lost some while on the dry fasting days and quickly recovered them on the protein up days.</p>
+<p>Btw, that's what I ended up doing, body recomposition alternating fasting with getting more protein, using the pain of my body as an indicator of when I should add protein. Today I'm painless so I'm going for a 24 hour fast.</p>
+<p>I think this week I've done fine and I should keep up until I figure a better way. The only change I'm introducing this week is trying egg protein instead of whey protein because I think the whey protein is messing up with my armpits.</p>
+<h3 id="week-3-17th-of-may-2021">Week 3: 17th of May (2021).</h3>
+<p>I could barely try anything this week because I was moving flats. Funnily enough I managed to keep going down by just controlling my meals and doing the home workout routine.</p>
+<p>I'm 71.5 kgs and 18.9% body fat. Progress! Now where I fucked it up is in waist circumference but that's out of yesterday being a messy day probably.</p>
+<p>What is interesting is where I was ages ago when I was 68kgs, according to some pictures I found of bath scales I was around 15% body fat. From nowadays point of view I think I was too skinny. That means I've got to be VERY careful with how I lose weight. Also it seems I was only 74 cms belly circumference. So there's a long way to go. I wonder whether to do again dry fasting. It's not easy while exercising.</p>
+<h2 id="week-of-2nd-of-august-2021">Week of 2nd of August 2021.</h2>
+<p>I'm in Seville, so change of routine. I was really sick two weeks ago and thanks to that I dropped some kilos and loads of body fat. I'm becoming more accustomed to the heat in consequence.</p>
+<p>So I'm around 16.8% body fat and around 68 kgs, I also am 82 centimetres. This last figure is the one I'm paying the most attention to.</p>
+<h2 id="stage-2">Stage 2</h2>
+<p>Stuff is mainly working, went from 21% to 16% body fat. The goal here is 13% body fat  while remaining between 68 to 70 kgs.</p>
+<p>I feel stronger, tighter, yet my belly is the weakest point, that's the only part where loose flesh is felt.</p>
+<h3 id="stuff-ive-learnt">Stuff I've learnt</h3>
+<ul>
+<li>Nuts are bad to lose weight.</li>
+<li>Coffee and fasting are a bad combination.</li>
+<li>Dry fasting is what works best at reducing belly circumference.</li>
+<li>Whey protein is bad for me.</li>
+</ul>
+<figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://www.bodybuilding.com/content/what-one-lifter-learned-from-not-eating-for-60-hours.html">
+<div class="kg-bookmark-content">
+<div class="kg-bookmark-metadata"> </div>
+</div>
+<div class="kg-bookmark-thumbnail"> </div>
+<p> </p>
+</a></figure>
             ]]>
         </content>
     </entry>
