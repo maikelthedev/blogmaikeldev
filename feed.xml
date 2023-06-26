@@ -1,55 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <title>Maikel The Dev</title>
+    <title>Maikel&#x27;s Blog</title>
     <link href="https://www.maikel.uk/feed.xml" rel="self" />
     <link href="https://www.maikel.uk" />
-    <updated>2023-04-26T23:57:24+02:00</updated>
+    <updated>2023-06-26T15:05:05+02:00</updated>
     <author>
-        <name>Maikel Frias Mosquea</name>
+        <name>Maikel</name>
     </author>
     <id>https://www.maikel.uk</id>
 
     <entry>
-        <title>Test 2</title>
+        <title>Once more with feeling: Hello World!</title>
         <author>
-            <name>Maikel Frias Mosquea</name>
+            <name>Maikel</name>
         </author>
-        <link href="https://www.maikel.uk/test-2.html"/>
-        <id>https://www.maikel.uk/test-2.html</id>
-        <media:content url="https://www.maikel.uk/media/posts/2/me.jpg" medium="image" />
+        <link href="https://www.maikel.uk/once-more-with-feeling-hello-world.html"/>
+        <id>https://www.maikel.uk/once-more-with-feeling-hello-world.html</id>
+        <media:content url="https://www.maikel.uk/media/posts/48/vladislav-klapin-Ym6sfQFxOho-unsplash.jpg" medium="image" />
+            <category term="introductions"/>
 
-        <updated>2023-04-26T23:57:24+02:00</updated>
+        <updated>2023-06-26T15:05:05+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://www.maikel.uk/media/posts/2/me.jpg" alt="" />
-                    Just testing a post with a featured image and some SEO Pic is me in Kyoto's garden on Holland's Park. 
+                        <img src="https://www.maikel.uk/media/posts/48/vladislav-klapin-Ym6sfQFxOho-unsplash.jpg" alt="" />
+                    So this is my blog, you don't see them but all of the Wordpress files I had in the past are now here. Now I'm trying to reorganise the whole thing so it does make some sense, which it doesn't currently. Then I'm breaking maikel.uk&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://www.maikel.uk/media/posts/2/me.jpg" class="type:primaryImage" alt="" /></p>
-                <p>Just testing a post with a featured image and some SEO</p>
-<p>Pic is me in Kyoto's garden on Holland's Park. </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Once upon a time</title>
-        <author>
-            <name>Maikel Frias Mosquea</name>
-        </author>
-        <link href="https://www.maikel.uk/once-upon-a-time.html"/>
-        <id>https://www.maikel.uk/once-upon-a-time.html</id>
-
-        <updated>2023-04-26T23:21:18+02:00</updated>
-            <summary>
-                <![CDATA[
-                    Just a test post. 
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>Just a test post. </p>
+                    <p><img src="https://www.maikel.uk/media/posts/48/vladislav-klapin-Ym6sfQFxOho-unsplash.jpg" class="type:primaryImage" alt="" /></p>
+                <p>So this is my blog, you don't see them but all of the Wordpress files I had in the past are now here. </p>
+<p>Now I'm trying to reorganise the whole thing so it does make some sense, which it doesn't currently.</p>
+<p>Then I'm breaking maikel.uk down and starting to work with maikel.dev. This site should be in blog.maikel.dev</p>
             ]]>
         </content>
     </entry>

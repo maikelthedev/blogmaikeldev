@@ -1,42 +1,29 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "Maikel The Dev",
+    "title": "Maikel&#x27;s Blog",
     "description": "",
     "home_page_url": "https://www.maikel.uk",
     "feed_url": "https://www.maikel.uk/feed.json",
     "user_comment": "",
     "author": {
-        "name": "Maikel Frias Mosquea"
+        "name": "Maikel"
     },
     "items": [
         {
-            "id": "https://www.maikel.uk/test-2.html",
-            "url": "https://www.maikel.uk/test-2.html",
-            "title": "Test 2",
-            "summary": "Just testing a post with a featured image and some SEO Pic is me in Kyoto's garden on Holland's Park. ",
-            "content_html": "<p>Just testing a post with a featured image and some SEO</p>\n<p>Pic is me in Kyoto's garden on Holland's Park. </p>",
-            "image": "https://www.maikel.uk/media/posts/2/me.jpg",
+            "id": "https://www.maikel.uk/once-more-with-feeling-hello-world.html",
+            "url": "https://www.maikel.uk/once-more-with-feeling-hello-world.html",
+            "title": "Once more with feeling: Hello World!",
+            "summary": "So this is my blog, you don't see them but all of the Wordpress files I had in the past are now here. Now I'm trying to reorganise the whole thing so it does make some sense, which it doesn't currently. Then I'm breaking maikel.uk&hellip;",
+            "content_html": "<p>So this is my blog, you don't see them but all of the Wordpress files I had in the past are now here. </p>\n<p>Now I'm trying to reorganise the whole thing so it does make some sense, which it doesn't currently.</p>\n<p>Then I'm breaking maikel.uk down and starting to work with maikel.dev. This site should be in blog.maikel.dev</p>",
+            "image": "https://www.maikel.uk/media/posts/48/vladislav-klapin-Ym6sfQFxOho-unsplash.jpg",
             "author": {
-                "name": "Maikel Frias Mosquea"
+                "name": "Maikel"
             },
             "tags": [
+                   "introductions"
             ],
-            "date_published": "2023-04-26T23:57:24+02:00",
-            "date_modified": "2023-04-26T23:57:24+02:00"
-        },
-        {
-            "id": "https://www.maikel.uk/once-upon-a-time.html",
-            "url": "https://www.maikel.uk/once-upon-a-time.html",
-            "title": "Once upon a time",
-            "summary": "Just a test post. ",
-            "content_html": "<p>Just a test post. </p>",
-            "author": {
-                "name": "Maikel Frias Mosquea"
-            },
-            "tags": [
-            ],
-            "date_published": "2023-04-26T23:21:18+02:00",
-            "date_modified": "2023-04-26T23:21:18+02:00"
+            "date_published": "2023-06-26T14:57:59+02:00",
+            "date_modified": "2023-06-26T15:05:05+02:00"
         }
     ]
 }
