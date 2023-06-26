@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://www.maikel.uk/sitemap.xml
+Sitemap: https://blog.maikel.dev/sitemap.xml

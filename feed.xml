@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
     <title>Maikel&#x27;s Blog</title>
-    <link href="https://www.maikel.uk/feed.xml" rel="self" />
-    <link href="https://www.maikel.uk" />
+    <link href="https://blog.maikel.dev/feed.xml" rel="self" />
+    <link href="https://blog.maikel.dev" />
     <updated>2023-06-26T15:05:05+02:00</updated>
     <author>
         <name>Maikel</name>
     </author>
-    <id>https://www.maikel.uk</id>
+    <id>https://blog.maikel.dev</id>
 
     <entry>
         <title>Once more with feeling: Hello World!</title>
         <author>
             <name>Maikel</name>
         </author>
-        <link href="https://www.maikel.uk/once-more-with-feeling-hello-world.html"/>
-        <id>https://www.maikel.uk/once-more-with-feeling-hello-world.html</id>
-        <media:content url="https://www.maikel.uk/media/posts/48/vladislav-klapin-Ym6sfQFxOho-unsplash.jpg" medium="image" />
+        <link href="https://blog.maikel.dev/once-more-with-feeling-hello-world.html"/>
+        <id>https://blog.maikel.dev/once-more-with-feeling-hello-world.html</id>
+        <media:content url="https://blog.maikel.dev/media/posts/48/vladislav-klapin-Ym6sfQFxOho-unsplash.jpg" medium="image" />
             <category term="introductions"/>
 
         <updated>2023-06-26T15:05:05+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://www.maikel.uk/media/posts/48/vladislav-klapin-Ym6sfQFxOho-unsplash.jpg" alt="" />
+                        <img src="https://blog.maikel.dev/media/posts/48/vladislav-klapin-Ym6sfQFxOho-unsplash.jpg" alt="" />
                     So this is my blog, you don't see them but all of the Wordpress files I had in the past are now here. Now I'm trying to reorganise the whole thing so it does make some sense, which it doesn't currently. Then I'm breaking maikel.uk&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://www.maikel.uk/media/posts/48/vladislav-klapin-Ym6sfQFxOho-unsplash.jpg" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://blog.maikel.dev/media/posts/48/vladislav-klapin-Ym6sfQFxOho-unsplash.jpg" class="type:primaryImage" alt="" /></p>
                 <p>So this is my blog, you don't see them but all of the Wordpress files I had in the past are now here. </p>
 <p>Now I'm trying to reorganise the whole thing so it does make some sense, which it doesn't currently.</p>
 <p>Then I'm breaking maikel.uk down and starting to work with maikel.dev. This site should be in blog.maikel.dev</p>

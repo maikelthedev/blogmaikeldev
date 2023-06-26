@@ -2,20 +2,20 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "Maikel&#x27;s Blog",
     "description": "",
-    "home_page_url": "https://www.maikel.uk",
-    "feed_url": "https://www.maikel.uk/feed.json",
+    "home_page_url": "https://blog.maikel.dev",
+    "feed_url": "https://blog.maikel.dev/feed.json",
     "user_comment": "",
     "author": {
         "name": "Maikel"
     },
     "items": [
         {
-            "id": "https://www.maikel.uk/once-more-with-feeling-hello-world.html",
-            "url": "https://www.maikel.uk/once-more-with-feeling-hello-world.html",
+            "id": "https://blog.maikel.dev/once-more-with-feeling-hello-world.html",
+            "url": "https://blog.maikel.dev/once-more-with-feeling-hello-world.html",
             "title": "Once more with feeling: Hello World!",
             "summary": "So this is my blog, you don't see them but all of the Wordpress files I had in the past are now here. Now I'm trying to reorganise the whole thing so it does make some sense, which it doesn't currently. Then I'm breaking maikel.uk&hellip;",
             "content_html": "<p>So this is my blog, you don't see them but all of the Wordpress files I had in the past are now here. </p>\n<p>Now I'm trying to reorganise the whole thing so it does make some sense, which it doesn't currently.</p>\n<p>Then I'm breaking maikel.uk down and starting to work with maikel.dev. This site should be in blog.maikel.dev</p>",
-            "image": "https://www.maikel.uk/media/posts/48/vladislav-klapin-Ym6sfQFxOho-unsplash.jpg",
+            "image": "https://blog.maikel.dev/media/posts/48/vladislav-klapin-Ym6sfQFxOho-unsplash.jpg",
             "author": {
                 "name": "Maikel"
             },
