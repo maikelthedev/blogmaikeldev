@@ -10,6 +10,21 @@
     },
     "items": [
         {
+            "id": "https://blog.maikel.dev/asdas.html",
+            "url": "https://blog.maikel.dev/asdas.html",
+            "title": "Re-making www.maikel.dev in NextJS",
+            "summary": "I’m learning NextJS by doing this course by my favourite Udemy tutor Maximilian. I’m going to divide this notes in sections same as the course and I’m going to use The simplest way to create an app is to use: npx create-next-app on the shell&hellip;",
+            "content_html": "<p>I’m learning NextJS by doing this course by my favourite Udemy tutor Maximilian. </p>\n<p>I’m going to divide this notes in sections same as the course and I’m going to use </p>\n<h2 id=\"reasons-im-learning-it\">Reasons I’m learning it</h2>\n<ul>\n<li>I want to design <a href=\"http://www.maikel.dev\">www.maikel.dev</a> using it.</li>\n<li>I want to refresh my knowledge of React since it has been a while since the last time I used it.</li>\n<li>I want server-side rendering. I’ve seen how hideously slow SPA are on regularly powered computers. </li>\n<li>I think React has far more future than Angular will ever have. </li>\n<li>I ‘d like to do the Fedigrindr app using this too.</li>\n</ul>\n<h2 id=\"section-1-getting-started\">Section 1: Getting started</h2>\n<p>The simplest way to create an app is to use:</p>\n<pre><code class=\"language-bash\">npx create-next-app\n</code></pre>\n<p>on the shell console. </p>\n<p>Shortcut to format document: Ctlr+Shift-i </p>\n<p>A NextJS app seems to be a monolitic node app. </p>\n<h3 id=\"why-not-choose-use-app-router\">Why not choose use App Router?</h3>\n<p>Because otherwise you create a different folder structure instead of the pages. </p>\n<h2 id=\"section-2-react-refresher\">Section 2: React Refresher</h2>\n<p>ReactJS is used (same as Angular) to make pages reactive, seem instant. Also is all about components. Webs divided in smaller parts. </p>\n",
+            "image": "https://blog.maikel.dev/media/posts/51/nextjs.jpg",
+            "author": {
+                "name": "Maikel"
+            },
+            "tags": [
+            ],
+            "date_published": "2023-06-26T22:26:33+02:00",
+            "date_modified": "2023-06-27T09:07:56+02:00"
+        },
+        {
             "id": "https://blog.maikel.dev/once-more-with-feeling-hello-world.html",
             "url": "https://blog.maikel.dev/once-more-with-feeling-hello-world.html",
             "title": "Once more with feeling: Hello World!",
@@ -156,23 +171,6 @@
             ],
             "date_published": "2022-01-22T02:54:14+01:00",
             "date_modified": "2023-06-26T16:22:44+02:00"
-        },
-        {
-            "id": "https://blog.maikel.dev/continuity.html",
-            "url": "https://blog.maikel.dev/continuity.html",
-            "title": "Continuity",
-            "summary": "What to do once reached 14% body fat? That's when I start bulking/cutting towards 15% and back again and again until I look as I would like with 13% body fat and probably 78 kgs. I think the main goal is here to change your&hellip;",
-            "content_html": "<h2 id=\"what-to-do-once-reached-14-body-fat\">What to do once reached 14% body fat?</h2>\n<p>That's when I start bulking/cutting towards 15% and back again and again until I look as I would like with 13% body fat and probably 78 kgs.</p>\n<p>I think the main goal is here to change your eating habits. Basically cooking stuff you could enjoy both eating and preparing.</p>\n<h2 id=\"i-need-to-get-a-derma\">I need to get a derma</h2>\n<p>I can't wait until February. But what I really need is a surgeon to remove the cysts. It doesn't get worse.</p>\n<h2 id=\"to-do-of-today\">To-do of today</h2>\n<ul>\n<li>Brand Kit<br>This is annoying, I can't find what I'm looking for, which is a SIMPLE and straight forward way to send stuff with my logo. I managed to get the brand as email signature in Roundcube but not anywhere else.</li>\n<li><s>Send email to Victoria. </s></li>\n<li><s>Basic new website</s></li>\n<li><s>Check out other places to get the lenses</s></li>\n<li><s>Hang the clothes. </s></li>\n<li>Define goals (pic of guy).</li>\n<li>Optimisation of diet.</li>\n<li><s>Cook the salmon</s></li>\n<li>Find a flat for May.</li>\n<li>Get blood test results and book appointment with GP.</li>\n<li>Piensa sobre el A200 de SYnlab. Son 165 euros.</li>\n<li>Check what exactly do I get from Sanitas</li>\n<li>Talk to your Sanitas GP and see if you can get a surgeon to get it out all.</li>\n<li>Note down expiry date of lenses.</li>\n<li>Do something about your cholesterol.</li>\n</ul>\n<p><!-- wp:jetpack/contact-form {\"subject\":\"[Maikel] Continuity\",\"to\":\"maikel@maikel.uk\"} --> <!-- wp:jetpack/field-name {\"required\":true} /--></p>\n<p><!-- wp:jetpack/field-email {\"required\":true} /--></p>\n<p><!-- wp:jetpack/field-textarea /--></p>\n<p><!-- wp:jetpack/button {\"element\":\"button\",\"text\":\"Contact Us\"} /--> <!-- /wp:jetpack/contact-form --></p>",
-            "image": "https://blog.maikel.dev/media/posts/39/calista-tee-gizUZzz4HPI-unsplash.jpg",
-            "author": {
-                "name": "Maikel"
-            },
-            "tags": [
-                   "dieting",
-                   "diary"
-            ],
-            "date_published": "2022-01-05T02:27:37+01:00",
-            "date_modified": "2023-06-26T16:21:40+02:00"
         }
     ]
 }

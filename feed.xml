@@ -3,12 +3,56 @@
     <title>Maikel&#x27;s Blog</title>
     <link href="https://blog.maikel.dev/feed.xml" rel="self" />
     <link href="https://blog.maikel.dev" />
-    <updated>2023-06-26T16:38:28+02:00</updated>
+    <updated>2023-06-27T09:07:56+02:00</updated>
     <author>
         <name>Maikel</name>
     </author>
     <id>https://blog.maikel.dev</id>
 
+    <entry>
+        <title>Re-making www.maikel.dev in NextJS</title>
+        <author>
+            <name>Maikel</name>
+        </author>
+        <link href="https://blog.maikel.dev/asdas.html"/>
+        <id>https://blog.maikel.dev/asdas.html</id>
+        <media:content url="https://blog.maikel.dev/media/posts/51/nextjs.jpg" medium="image" />
+
+        <updated>2023-06-27T09:07:56+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.maikel.dev/media/posts/51/nextjs.jpg" alt="" />
+                    I’m learning NextJS by doing this course by my favourite Udemy tutor Maximilian. I’m going to divide this notes in sections same as the course and I’m going to use The simplest way to create an app is to use: npx create-next-app on the shell&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.maikel.dev/media/posts/51/nextjs.jpg" class="type:primaryImage" alt="" /></p>
+                <p>I’m learning NextJS by doing this course by my favourite Udemy tutor Maximilian. </p>
+<p>I’m going to divide this notes in sections same as the course and I’m going to use </p>
+<h2 id="reasons-im-learning-it">Reasons I’m learning it</h2>
+<ul>
+<li>I want to design <a href="http://www.maikel.dev">www.maikel.dev</a> using it.</li>
+<li>I want to refresh my knowledge of React since it has been a while since the last time I used it.</li>
+<li>I want server-side rendering. I’ve seen how hideously slow SPA are on regularly powered computers. </li>
+<li>I think React has far more future than Angular will ever have. </li>
+<li>I ‘d like to do the Fedigrindr app using this too.</li>
+</ul>
+<h2 id="section-1-getting-started">Section 1: Getting started</h2>
+<p>The simplest way to create an app is to use:</p>
+<pre><code class="language-bash">npx create-next-app
+</code></pre>
+<p>on the shell console. </p>
+<p>Shortcut to format document: Ctlr+Shift-i </p>
+<p>A NextJS app seems to be a monolitic node app. </p>
+<h3 id="why-not-choose-use-app-router">Why not choose use App Router?</h3>
+<p>Because otherwise you create a different folder structure instead of the pages. </p>
+<h2 id="section-2-react-refresher">Section 2: React Refresher</h2>
+<p>ReactJS is used (same as Angular) to make pages reactive, seem instant. Also is all about components. Webs divided in smaller parts. </p>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Once more with feeling: Hello World!</title>
         <author>
@@ -801,57 +845,6 @@
 <li>This diet is not feasible for longer periods than 3 days.</li>
 </ul>
 <p><!-- /wp:list --></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Continuity</title>
-        <author>
-            <name>Maikel</name>
-        </author>
-        <link href="https://blog.maikel.dev/continuity.html"/>
-        <id>https://blog.maikel.dev/continuity.html</id>
-        <media:content url="https://blog.maikel.dev/media/posts/39/calista-tee-gizUZzz4HPI-unsplash.jpg" medium="image" />
-            <category term="dieting"/>
-            <category term="diary"/>
-
-        <updated>2023-06-26T16:21:40+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.maikel.dev/media/posts/39/calista-tee-gizUZzz4HPI-unsplash.jpg" alt="" />
-                    What to do once reached 14% body fat? That's when I start bulking/cutting towards 15% and back again and again until I look as I would like with 13% body fat and probably 78 kgs. I think the main goal is here to change your&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.maikel.dev/media/posts/39/calista-tee-gizUZzz4HPI-unsplash.jpg" class="type:primaryImage" alt="" /></p>
-                <h2 id="what-to-do-once-reached-14-body-fat">What to do once reached 14% body fat?</h2>
-<p>That's when I start bulking/cutting towards 15% and back again and again until I look as I would like with 13% body fat and probably 78 kgs.</p>
-<p>I think the main goal is here to change your eating habits. Basically cooking stuff you could enjoy both eating and preparing.</p>
-<h2 id="i-need-to-get-a-derma">I need to get a derma</h2>
-<p>I can't wait until February. But what I really need is a surgeon to remove the cysts. It doesn't get worse.</p>
-<h2 id="to-do-of-today">To-do of today</h2>
-<ul>
-<li>Brand Kit<br>This is annoying, I can't find what I'm looking for, which is a SIMPLE and straight forward way to send stuff with my logo. I managed to get the brand as email signature in Roundcube but not anywhere else.</li>
-<li><s>Send email to Victoria. </s></li>
-<li><s>Basic new website</s></li>
-<li><s>Check out other places to get the lenses</s></li>
-<li><s>Hang the clothes. </s></li>
-<li>Define goals (pic of guy).</li>
-<li>Optimisation of diet.</li>
-<li><s>Cook the salmon</s></li>
-<li>Find a flat for May.</li>
-<li>Get blood test results and book appointment with GP.</li>
-<li>Piensa sobre el A200 de SYnlab. Son 165 euros.</li>
-<li>Check what exactly do I get from Sanitas</li>
-<li>Talk to your Sanitas GP and see if you can get a surgeon to get it out all.</li>
-<li>Note down expiry date of lenses.</li>
-<li>Do something about your cholesterol.</li>
-</ul>
-<p><!-- wp:jetpack/contact-form {"subject":"[Maikel] Continuity","to":"maikel@maikel.uk"} --> <!-- wp:jetpack/field-name {"required":true} /--></p>
-<p><!-- wp:jetpack/field-email {"required":true} /--></p>
-<p><!-- wp:jetpack/field-textarea /--></p>
-<p><!-- wp:jetpack/button {"element":"button","text":"Contact Us"} /--> <!-- /wp:jetpack/contact-form --></p>
             ]]>
         </content>
     </entry>
