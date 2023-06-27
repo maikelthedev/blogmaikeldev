@@ -3,7 +3,7 @@
     <title>Maikel&#x27;s Blog</title>
     <link href="https://blog.maikel.dev/feed.xml" rel="self" />
     <link href="https://blog.maikel.dev" />
-    <updated>2023-06-27T09:07:56+02:00</updated>
+    <updated>2023-06-27T09:09:46+02:00</updated>
     <author>
         <name>Maikel</name>
     </author>
@@ -18,7 +18,7 @@
         <id>https://blog.maikel.dev/asdas.html</id>
         <media:content url="https://blog.maikel.dev/media/posts/51/nextjs.jpg" medium="image" />
 
-        <updated>2023-06-27T09:07:56+02:00</updated>
+        <updated>2023-06-27T09:09:46+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.maikel.dev/media/posts/51/nextjs.jpg" alt="" />
@@ -28,7 +28,7 @@
         <content type="html">
             <![CDATA[
                     <p><img src="https://blog.maikel.dev/media/posts/51/nextjs.jpg" class="type:primaryImage" alt="" /></p>
-                <p>I’m learning NextJS by doing this course by my favourite Udemy tutor Maximilian. </p>
+                <p>I’m learning NextJS by doing <a href="https://www.udemy.com/course/nextjs-react-the-complete-guide">this course</a> by my favourite Udemy tutor Maximilian. </p>
 <p>I’m going to divide this notes in sections same as the course and I’m going to use </p>
 <h2 id="reasons-im-learning-it">Reasons I’m learning it</h2>
 <ul>
