@@ -3,7 +3,7 @@
     <title>Maikel&#x27;s Blog</title>
     <link href="https://blog.maikel.dev/feed.xml" rel="self" />
     <link href="https://blog.maikel.dev" />
-    <updated>2023-06-27T17:25:36+02:00</updated>
+    <updated>2023-06-27T19:06:36+02:00</updated>
     <author>
         <name>Maikel</name>
     </author>
@@ -20,7 +20,7 @@
             <category term="nextjs"/>
             <category term="learning"/>
 
-        <updated>2023-06-27T17:25:36+02:00</updated>
+        <updated>2023-06-27T19:06:36+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.maikel.dev/media/posts/51/nextjs.jpg" alt="" />
@@ -208,6 +208,8 @@ The hook to access that one would be useContext</p>
 const userContext = useContext(UserContext);
 </code></pre>
 <h2 id="section-3-pages--file-based-routing">Section 3: Pages &amp; File-based routing</h2>
+<p>With file-based routing you simply create a file to route to it, inside the pages folder. If you want to create a folder the main one should be called index.js and all others will be subpages of that main one (whose name is the folder name).</p>
+<p>For stuff that’s dinamic use folders and filenames with [id] or [client]</p>
 
             ]]>
         </content>
