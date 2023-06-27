@@ -10,8 +10,8 @@
     },
     "items": [
         {
-            "id": "https://blog.maikel.dev/asdas.html",
-            "url": "https://blog.maikel.dev/asdas.html",
+            "id": "https://blog.maikel.dev/re-making-wwwmaikeldev-in-nextjs-3.html",
+            "url": "https://blog.maikel.dev/re-making-wwwmaikeldev-in-nextjs-3.html",
             "title": "Re-making www.maikel.dev in NextJS",
             "summary": "I’m learning NextJS by doing this course by my favourite Udemy tutor Maximilian. I’m going to divide this notes in sections same as the course and I’m going to use The simplest way to create an app is to use: npx create-next-app on the shell&hellip;",
             "content_html": "<p>I’m learning NextJS by doing <a href=\"https://www.udemy.com/course/nextjs-react-the-complete-guide\">this course</a> by my favourite Udemy tutor Maximilian. </p>\n<p>I’m going to divide this notes in sections same as the course and I’m going to use </p>\n<h2 id=\"reasons-im-learning-it\">Reasons I’m learning it</h2>\n<ul>\n<li>I want to design <a href=\"http://www.maikel.dev\">www.maikel.dev</a> using it.</li>\n<li>I want to refresh my knowledge of React since it has been a while since the last time I used it.</li>\n<li>I want server-side rendering. I’ve seen how hideously slow SPA are on regularly powered computers. </li>\n<li>I think React has far more future than Angular will ever have. </li>\n<li>I ‘d like to do the Fedigrindr app using this too.</li>\n</ul>\n<h2 id=\"section-1-getting-started\">Section 1: Getting started</h2>\n<p>The simplest way to create an app is to use:</p>\n<pre><code class=\"language-bash\">npx create-next-app\n</code></pre>\n<p>on the shell console. </p>\n<p>Shortcut to format document: Ctlr+Shift-i </p>\n<p>A NextJS app seems to be a monolitic node app. </p>\n<h3 id=\"why-not-choose-use-app-router\">Why not choose use App Router?</h3>\n<p>Because otherwise you create a different folder structure instead of the pages. </p>\n<h2 id=\"section-2-react-refresher\">Section 2: React Refresher</h2>\n<p>ReactJS is used (same as Angular) to make pages reactive, seem instant. Also is all about components. Webs divided in smaller parts. </p>\n",
@@ -22,7 +22,7 @@
             "tags": [
             ],
             "date_published": "2023-06-26T22:26:33+02:00",
-            "date_modified": "2023-06-27T09:09:46+02:00"
+            "date_modified": "2023-06-27T09:10:54+02:00"
         },
         {
             "id": "https://blog.maikel.dev/once-more-with-feeling-hello-world.html",

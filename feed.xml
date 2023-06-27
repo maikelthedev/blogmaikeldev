@@ -3,7 +3,7 @@
     <title>Maikel&#x27;s Blog</title>
     <link href="https://blog.maikel.dev/feed.xml" rel="self" />
     <link href="https://blog.maikel.dev" />
-    <updated>2023-06-27T09:09:46+02:00</updated>
+    <updated>2023-06-27T09:10:54+02:00</updated>
     <author>
         <name>Maikel</name>
     </author>
@@ -14,11 +14,11 @@
         <author>
             <name>Maikel</name>
         </author>
-        <link href="https://blog.maikel.dev/asdas.html"/>
-        <id>https://blog.maikel.dev/asdas.html</id>
+        <link href="https://blog.maikel.dev/re-making-wwwmaikeldev-in-nextjs-3.html"/>
+        <id>https://blog.maikel.dev/re-making-wwwmaikeldev-in-nextjs-3.html</id>
         <media:content url="https://blog.maikel.dev/media/posts/51/nextjs.jpg" medium="image" />
 
-        <updated>2023-06-27T09:09:46+02:00</updated>
+        <updated>2023-06-27T09:10:54+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.maikel.dev/media/posts/51/nextjs.jpg" alt="" />
