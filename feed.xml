@@ -3,7 +3,7 @@
     <title>Maikel&#x27;s Blog</title>
     <link href="https://blog.maikel.dev/feed.xml" rel="self" />
     <link href="https://blog.maikel.dev" />
-    <updated>2023-06-27T19:06:36+02:00</updated>
+    <updated>2023-06-27T19:30:44+02:00</updated>
     <author>
         <name>Maikel</name>
     </author>
@@ -20,7 +20,7 @@
             <category term="nextjs"/>
             <category term="learning"/>
 
-        <updated>2023-06-27T19:06:36+02:00</updated>
+        <updated>2023-06-27T19:30:44+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.maikel.dev/media/posts/51/nextjs.jpg" alt="" />
@@ -210,6 +210,16 @@ const userContext = useContext(UserContext);
 <h2 id="section-3-pages--file-based-routing">Section 3: Pages &amp; File-based routing</h2>
 <p>With file-based routing you simply create a file to route to it, inside the pages folder. If you want to create a folder the main one should be called index.js and all others will be subpages of that main one (whose name is the folder name).</p>
 <p>For stuff that’s dinamic use folders and filenames with [id] or [client]</p>
+<p>You could also use […slug] for pages that are of a blog (slug can be anything) or any Catch-all routes</p>
+<h4 id="link-advantages">Link advantages</h4>
+<p>By using link it prefetches anything from the link as soon as you hoover it. </p>
+<h4 id="navigate-programatically">Navigate programatically</h4>
+<p>Use router.push(‘theroute’) to go and be able to go back
+Use router.replace(‘theroute’) to go but without being able to go back. </p>
+<h4 id="custom-made-404-page">Custom made 404 page.</h4>
+<p>Just make a 404.js page on the pages folder, give it whatever name you want and it is what will be shown.</p>
+<p>I wonder how long until he explains componentisation so I can design a navigation menu. So far it seems as if every page is its own page. </p>
+<h2 id="section-4-working-with-file-based-routing">Section 4: Working with file-based routing</h2>
 
             ]]>
         </content>
