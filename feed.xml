@@ -3,7 +3,7 @@
     <title>Maikel&#x27;s Blog</title>
     <link href="https://blog.maikel.dev/feed.xml" rel="self" />
     <link href="https://blog.maikel.dev" />
-    <updated>2023-06-27T09:10:54+02:00</updated>
+    <updated>2023-06-27T17:25:36+02:00</updated>
     <author>
         <name>Maikel</name>
     </author>
@@ -17,8 +17,10 @@
         <link href="https://blog.maikel.dev/re-making-wwwmaikeldev-in-nextjs-3.html"/>
         <id>https://blog.maikel.dev/re-making-wwwmaikeldev-in-nextjs-3.html</id>
         <media:content url="https://blog.maikel.dev/media/posts/51/nextjs.jpg" medium="image" />
+            <category term="nextjs"/>
+            <category term="learning"/>
 
-        <updated>2023-06-27T09:10:54+02:00</updated>
+        <updated>2023-06-27T17:25:36+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.maikel.dev/media/posts/51/nextjs.jpg" alt="" />
@@ -49,6 +51,163 @@
 <p>Because otherwise you create a different folder structure instead of the pages. </p>
 <h2 id="section-2-react-refresher">Section 2: React Refresher</h2>
 <p>ReactJS is used (same as Angular) to make pages reactive, seem instant. Also is all about components. Webs divided in smaller parts. </p>
+<p>Also to create a basic skeleton of a React app. </p>
+<pre><code class="language-bash">npx create-react-app
+</code></pre>
+<p>useState is a bit confusing. </p>
+<p>Default router he uses:</p>
+<pre><code class="language-bash">npm install --save react-router-dom@5
+</code></pre>
+<p>All the routing thing is boring since I know already what this all is. The only thing I neede to remember is that to pass properties you just pass them in props and every React object has props, e.g.:</p>
+<h4 id="how-to-pass-properties-to-children">How to pass properties to children</h4>
+<p>This can also be used to pass actions to the parents. </p>
+<pre><code class="language-jsx">// Some parent object
+return (
+    &lt;div&gt;
+       &lt;ChildComponent someText=&quot;hello&quot; /&gt;
+    &lt;div&gt;
+)
+
+// Some child component becomes:
+function ChildComponent(props) { //Props need to be defined here otherwise can&#39;t be accessed. 
+
+return (
+   &lt;div&gt;
+             &lt;h1&gt;{props.someText}&lt;/h1&gt;
+     &lt;/div&gt;
+     )
+     
+}
+</code></pre>
+<p>Don’t use normla links as they’ll be sent to the server which is redundant. Use “LInk” instead. </p>
+<h4 id="render-a-list-of-jsx-elements">Render a list of JSX elements</h4>
+<p>Note that each element of a list must have an (unique) ID added as the key prop.</p>
+<pre><code class="language-jsx">&lt;h1&gt;Some list&lt;/h1&gt;
+{DUMMY_DATA.map((single) =&gt; {
+    return &lt;SomeChildComponent key={single.id} title={single.title}} /&gt;
+})}
+</code></pre>
+<p>I need to remember change this Harvest task to NextJS-course I want to know exaclty how much time I’ve invested on this by the end of it. </p>
+<h4 id="passing-content-to-another-component">Passing content to another component</h4>
+<p>Use props.children</p>
+<pre><code class="language-jsx">&lt;Example&gt;
+&lt;div&gt;Something else&lt;/div&gt;
+&lt;/Example&gt;
+</code></pre>
+<p>Won’t render unless you pass props.children such as inside the Example component</p>
+<pre><code class="language-jsx">return (
+    &lt;div&gt;
+        {props.children
+    &lt;/div&gt;
+)
+</code></pre>
+<p>Now whatever content was after the tag will be rendered too inside. That’s how you use Wrapper components (e.g.: Card). </p>
+<h4 id="prevent-form-submission">Prevent form submission.</h4>
+<pre><code class="language-jsx">
+function submitHandler(event) { // You need event here
+  event.preventDefault() // this is what actually prevents the form submission. 
+    }
+
+return (
+&lt;form onSubmit={submitHandler}&gt; ....thje form content &lt;/form&gt;
+)
+</code></pre>
+<h4 id="useref-to-use-the-details-of-a-form">UseRef to use the details of a form</h4>
+<p>This is a ref prop that is used to get an element through a referent object, example. </p>
+<pre><code class="language-jsx">const titleInputRef = useRef();
+
+function submit( ) {
+    const enteredTitle = titleInputRef.current.value;
+    someLogic(enteredTitle);
+}
+
+return (
+&lt;form&gt;
+        &lt;input ref={titleInputRef} /&gt;
+&lt;/form&gt;
+</code></pre>
+<h4 id="reminder-how-to-send-http-request">Reminder, how to send HTTP request.</h4>
+<p>Lots of packages, for this as usual. fetch() is the one built in. Example for POST request.</p>
+<pre><code class="language-jsx">fetch(
+    &#39;SOMEURL&#39;, 
+    {
+        method: &quot;POST&quot;,
+        body: theData // Use JSON.stringify if needed
+        headers: 
+            {
+            &#39;Content-Type&#39;: &#39;application/json
+            }
+    }
+)
+</code></pre>
+<p>You could use Redis here for simplicity while testing</p>
+<h4 id="using-usehistory-to-navigate">Using useHistory to navigate</h4>
+<p>import it from the router. </p>
+<p>then add </p>
+<pre><code class="language-jsx">const history = useHistory() // to the function 
+
+//Imagine you have a fetch and want to trigger going somewhere
+
+fetch(DOSOMETHING).then(
+    history.replace(&#39;/somerelativepath&#39;);
+)
+</code></pre>
+<h4 id="reminder-on-how-to-fetch-data">Reminder on how to fetch data</h4>
+<pre><code class="language-jsx">fetch(&#39;someURL&#39;).then(response =&gt; {
+        return response.json() // To convert it to JSON
+    }).then(data =&gt; {
+        doSomethingWith(data)
+    });
+</code></pre>
+<p>Very probably other libraries don’t require to convert to manually to json as a step. </p>
+<h4 id="using-usestate-for-loading">Using useState for loading</h4>
+<p>Use state to change what’s visible on the screen while loading. Beware a fetch should have a useEffect to avoid running for all eternity. </p>
+<pre><code class="language-jsx">import {useState] from &quot;react&quot;
+
+const [isLoading, setIsLoading] = useState(true);
+
+// Then on the fetch function change it to call setIsLoading(false)
+</code></pre>
+<h4 id="using-useeffect-to-avoid-runnning-loops">Using useEffect to avoid runnning loops</h4>
+<pre><code class="language-jsx">useEffect(() =&gt; {
+            fetch(....)
+        }, 
+        [isLoading ] // Check the values on this array before executing the rest of the effect (the fetch), so in this case isLoading won&#39;t execute again. In this case isLoading shouldn&#39;t be there, and by being empty it&#39;ll only run once. 
+        );
+</code></pre>
+<h4 id="react-context">React Context</h4>
+<p>Common convention is to set up a Store folder. Alternatives to RC is Redux. </p>
+<p>To create a context</p>
+<pre><code>import {createContext, useState} from &quot;react&quot;;
+
+const YourContext = createContext({
+    users:  [ ],
+    totalUsers: 0
+});
+// You also need a provider of that context
+function YourContextProivider(props) {
+// Here you can manage state same as in any other React component. 
+    const [users, setUsers] = useState([ ]);
+    
+    const context = {
+        users: users,
+        titalUserS: users.length
+    };
+    
+    return (
+    &lt;YourContext.Provider value={context}&gt;
+        {props.children}
+    &lt;/YourContext.Provider&gt;
+    )
+</code></pre>
+<p>I think it’s a singleton. You could save this as yourcontext-context.js in the store folder. 
+The hook to access that one would be useContext</p>
+<h4 id="how-to-use-usecontext">How to use useContext</h4>
+<p>Well, same as useState, etc. </p>
+<pre><code class="language-jsx">import {UserContext} from  from &quot;whervever&quot;
+const userContext = useContext(UserContext);
+</code></pre>
+<h2 id="section-3-pages--file-based-routing">Section 3: Pages &amp; File-based routing</h2>
 
             ]]>
         </content>
