@@ -3,7 +3,7 @@
     <title>Maikel&#x27;s Blog</title>
     <link href="https://blog.maikel.dev/feed.xml" rel="self" />
     <link href="https://blog.maikel.dev" />
-    <updated>2023-06-27T19:30:44+02:00</updated>
+    <updated>2023-06-29T17:32:33+02:00</updated>
     <author>
         <name>Maikel</name>
     </author>
@@ -20,7 +20,7 @@
             <category term="nextjs"/>
             <category term="learning"/>
 
-        <updated>2023-06-27T19:30:44+02:00</updated>
+        <updated>2023-06-29T17:32:33+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.maikel.dev/media/posts/51/nextjs.jpg" alt="" />
@@ -220,6 +220,72 @@ Use router.replace(‘theroute’) to go but without being able to go back. </p>
 <p>Just make a 404.js page on the pages folder, give it whatever name you want and it is what will be shown.</p>
 <p>I wonder how long until he explains componentisation so I can design a navigation menu. So far it seems as if every page is its own page. </p>
 <h2 id="section-4-working-with-file-based-routing">Section 4: Working with file-based routing</h2>
+<p>If you hae two pages in the same folder and one of them is [eventId] and the other is […slug] the first one will only be picked up as far as the user types the URL with just 1 varaialble, more than one will pick up the second page.</p>
+<p>Create a foldr called components to store all the bits and pieces normal of Angular/React. You can call it whatever you want but that way won’t interfere with file-based pages. </p>
+<p>To use eventId on the example about</p>
+<pre><code class="language-jsx">const router = useRouter();
+const eventId = router.query.eventId;
+</code></pre>
+<h4 id="wrapping-it-all-in-a-layout-with-a-header-and-footer">Wrapping it all in a Layout with a header and footer.</h4>
+<p>Modify _app.js to be wrapped in a Layout wrapper component that has props.children on it. </p>
+<p>I’m not exactly getting what a Fragment is. Ok I get it now thanks to <a href="https://react.dev/reference/react/Fragment">this</a></p>
+<h2 id="section-5-page-pre-rendering-and-data-fetching">Section 5: Page Pre-Rendering and Data Fetching</h2>
+<p>This is about SSR (server-side rendering) which is the key feature of NextJs. </p>
+<p>NextJS have to types of pre-rendering, static generation and SSR on the fly. </p>
+<h4 id="using-getstaticprops">Using getStaticProps()</h4>
+<pre><code class="language-jsx">export async function getStaticProps(context) {}
+</code></pre>
+<p>The function must be written exactly like that and it’ll only execute on the server, never on the client, in fact it’ll be hidden from the client. There’s no window object. You can put DB code there for example. Or read from a filesystem file (useful for markdown or JSON for example). Use the FS module with async/await. </p>
+<p><a href="https://nodejs.org/api/fs.html#promise-example">https://nodejs.org/api/fs.html#promise-example</a></p>
+<p>It should return {props: whateverObject}</p>
+<p>You can tell that function to work again on </p>
+<p>You can say it with the props that you return, example</p>
+<pre><code class="language-jsx">return {
+        props: someObject, 
+        revalidate: 10 // This would be th enumber of seconds to revalidate. 
+        }
+</code></pre>
+<p>That’s incremental static regeneration. </p>
+<h4 id="using-redirect">Using redirect.</h4>
+<p>It’s another key inside getStaticProps where you coudl specify where to send the user in case the page didn’t load or the access to the DB didn’t work for any reason. </p>
+<pre><code class="language-jsx">return {
+    redirect: &#39;/404-nodata
+    }
+</code></pre>
+<h4 id="extracting-context-for-ssr">Extracting context for SSR.</h4>
+<p>Instead of route.query.eventId (just recycling the example above, you’d use inside the getStaticProps this:</p>
+<pre><code class="language-jsx">export async function getStaticProps(context) {
+    const { params } = context;
+    const eventId = params.eventId;
+}
+</code></pre>
+<h4 id="using-getstaticpath">Using getStaticPath()</h4>
+<p>Default behavior for dynamic pages is not to generate them, such as [eventId]</p>
+<pre><code>export async function getStaticPaths() {
+    return {
+        paths: [
+                {params: {eventId: &quot;1&quot;} }
+                {params: {eventId: &quot;2&quot;} }
+                {params: {eventId: &quot;3&quot;} }
+        ],
+        fallback: false
+    }
+}
+</code></pre>
+<h4 id="using-fallback-true">Using fallback: true</h4>
+<p>Using fallback set to true stuff is generated before when first visited. Imagine one as before but with eventId:4. When using this you should put a loading page or something because nothing will be created no the first visit yet. </p>
+<h4 id="not-found">Not found</h4>
+<p>You can return {notFound: true} to send the user to a 404 Not found page in the absence of a product with the ID the user request for example. </p>
+<h4 id="using-getserversideprops">Using getServerSideProps()</h4>
+<p>This one is never statically pre-generated. You get access to params, req and res. Yoo cannot use it with getStaticProps because it wouldn’t make any sense. </p>
+<pre><code>export async function getServerSideProps(context) {
+const {params, req, res} = context
+returns { props: thePropsObject} 
+}
+</code></pre>
+<h4 id="whats-useswr-hook">What’s useSWR hook.</h4>
+<p>Is one to use instead of useEffect() to get data from the client side. Just check the docs. </p>
+<h2 id="section-6-project-time-page-pre-rendering--data-fetching">Section 6: Project Time: Page Pre-rendering &amp; Data Fetching</h2>
 
             ]]>
         </content>
