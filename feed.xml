@@ -3,7 +3,7 @@
     <title>Maikel&#x27;s Blog</title>
     <link href="https://blog.maikel.dev/feed.xml" rel="self" />
     <link href="https://blog.maikel.dev" />
-    <updated>2023-06-29T19:00:14+02:00</updated>
+    <updated>2023-06-29T19:58:27+02:00</updated>
     <author>
         <name>Maikel</name>
     </author>
@@ -20,7 +20,7 @@
             <category term="nextjs"/>
             <category term="learning"/>
 
-        <updated>2023-06-29T19:00:14+02:00</updated>
+        <updated>2023-06-29T19:58:27+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.maikel.dev/media/posts/51/nextjs.jpg" alt="" />
@@ -296,6 +296,17 @@ returns { props: thePropsObject}
 <h4 id="optmising-images">Optmising images</h4>
 <p>This is interesting. Using the Image component NextJS will optimise on the fly the image. Width and Height are mandatory when using this one. </p>
 <h2 id="section-8-adding-backend-code-with-api-routes-fullstack-react">Section 8: Adding Backend Code with API Routes (Fullstack React)</h2>
+<p>The code inside “api” won’t ever go to the client. </p>
+<h4 id="you-must-use-the-api-folder">You must use the API folder</h4>
+<p>NextJS requires that if you use an API it has the folder named “api”. 
+It’s very similar to vanilla express but also uses the pages file-based format. So if you want a users api endpoint you just create a users.js file inside “api” folder and inside, similar as express:</p>
+<pre><code class="language-js">function handler(req, res) {
+    res.status(200
+        .json({status: &quot;ok&quot;})
+}
+</code></pre>
+<h4 id="communication-front-end-backend">Communication front-end backend</h4>
+<p>If you’re going to use getStaticProps from the frontend then you shouldn’t use fetch since it’s all in your project. Instead you should DRY and make the code you have in your API a function that can be accessed from getStaticProps()</p>
 
             ]]>
         </content>
