@@ -3,7 +3,7 @@
     <title>Maikel&#x27;s Blog</title>
     <link href="https://blog.maikel.dev/feed.xml" rel="self" />
     <link href="https://blog.maikel.dev" />
-    <updated>2023-06-29T19:58:27+02:00</updated>
+    <updated>2023-06-30T16:20:38+02:00</updated>
     <author>
         <name>Maikel</name>
     </author>
@@ -20,7 +20,7 @@
             <category term="nextjs"/>
             <category term="learning"/>
 
-        <updated>2023-06-29T19:58:27+02:00</updated>
+        <updated>2023-06-30T16:20:38+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.maikel.dev/media/posts/51/nextjs.jpg" alt="" />
@@ -307,6 +307,59 @@ It’s very similar to vanilla express but also uses the pages file-based format
 </code></pre>
 <h4 id="communication-front-end-backend">Communication front-end backend</h4>
 <p>If you’re going to use getStaticProps from the frontend then you shouldn’t use fetch since it’s all in your project. Instead you should DRY and make the code you have in your API a function that can be accessed from getStaticProps()</p>
+<h2 id="section-9-project-time-api-routes">Section 9: Project Time: API Routes</h2>
+<p>Not much on this section that I need to write down….Talks a lot about Mongo DB which I know inside out since I used it to model the data of the Survation Panel. </p>
+<h2 id="section-10-working-with-app-wide-state-react-context">Section 10: Working with App-wide State (React Context)</h2>
+<p>Nothing special here, it is the same as ContextProviders before…. .</p>
+<h2 id="section-11-complete-app-example-build-a-full-blog-a-to-z">Section 11: Complete App Example: Build a Full Blog A to Z</h2>
+<p>The only bit that’s interesting here is about converting markdown, since you could use it if you get tired of Publii, the current software I’m using for this blog you’re seeing. </p>
+<h4 id="image-layout-property">Image layout property</h4>
+<p>Setting the layout property of an image as “responsive” it’ll fill up the container where it is. </p>
+<h4 id="translating-markdown-to-jsx">Translating MarkDown to JSX</h4>
+<p>Use <a href="https://github.com/remarkjs/react-markdown">react-markdown</a>, it takes markdown and outputs it as JSX. </p>
+<p>A common approach is to have a folder named “content”. You use gray matter to add metadata to markdown</p>
+<p>UUse another package too called <a href="https://github.com/jonschlinkert/gray-matter">gray-matter</a></p>
+<pre><code class="language-yaml">----
+title: Some title
+date: 2022-20-15
+author: yourself
+excerpt: ....
+image: ....
+----
+
+And here the markdown
+</code></pre>
+<p>You can use <a href="https://www.udemy.com/course/nextjs-react-the-complete-guide/learn/lecture/25146246#overview">this</a> video as reference. </p>
+<h4 id="getstaticprops-needs-getstaticpath">getStaticProps needs getStaticPath</h4>
+<p>This is the case for all the pages that are dynamically created. </p>
+<h4 id="rendering-images">Rendering images</h4>
+<p>Change ReactMarkdown to render img tags as Images in NextJS with customRenderers</p>
+<pre><code class="language-jsx">const customRenderers = {		
+        paragraph(paragraph) {
+        const { node} = paragraph
+        if (node.children[0].type === &quot;image&#39;) {
+        const image = node.children[0];
+        return &lt;div className={classes.image}&gt;
+            &lt;Image src={image.src} alt={image.alt} width={image.with} height={image.height}/&gt;
+            &lt;/div&gt;
+            .....
+            }
+            return &lt;p&gt;{paragraph.children}&lt;/p&gt;
+}
+</code></pre>
+<h4 id="code-snippets-in-colours">Code snippets in colours</h4>
+<p>Same, override the above with </p>
+<p><a href="https://github.com/react-syntax-highlighter/react-syntax-highlighter">React-syntax-highlighter</a> is the package you’ll need. </p>
+<h2 id="section-12-deploying-nextjs-apps">Section 12: Deploying NextJS Apps</h2>
+<h4 id="next-export">Next Export</h4>
+<p>It’s just a command that creates a 100% full static app and doesnt’ require a NodeJS server. But that means you cannot use API routes, server-side pages, nor page revalidations. </p>
+<h4 id="nextconfigjs">next.config.js</h4>
+<p>It’s better to just <a href="https://nextjs.org/docs/pages/api-reference/next-config-js">check the docs</a> for this. It has hundreds of options. </p>
+<h4 id="optimising-prism-syntax-highlighter">Optimising Prism (syntax highlighter)</h4>
+<p>Choose only the languages you want to import. </p>
+<h2 id="section-13-adding-authentication">Section 13: Adding Authentication</h2>
+<h2 id="section-14-optional-nextjs-summary">Section 14: Optional: NextJS Summary</h2>
+<h2 id="section-14-course-roundup">Section 14: Course Roundup</h2>
 
             ]]>
         </content>
