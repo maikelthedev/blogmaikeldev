@@ -3,7 +3,7 @@
     <title>Maikel&#x27;s Blog</title>
     <link href="https://blog.maikel.dev/feed.xml" rel="self" />
     <link href="https://blog.maikel.dev" />
-    <updated>2023-07-03T12:34:45+02:00</updated>
+    <updated>2023-07-03T14:52:42+02:00</updated>
     <author>
         <name>Maikel</name>
     </author>
@@ -18,7 +18,7 @@
         <id>https://blog.maikel.dev/tailwind-css.html</id>
         <media:content url="https://blog.maikel.dev/media/posts/52/maxresdefault.jpg" medium="image" />
 
-        <updated>2023-07-03T12:34:45+02:00</updated>
+        <updated>2023-07-03T14:52:42+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.maikel.dev/media/posts/52/maxresdefault.jpg" alt="" />
@@ -105,7 +105,12 @@ npx tailwindcss init // creates the tailiwind.config.js file
 <p>Start with padding, then alignment, then size, then adapt to other screens, then transofrmations (hover, focus, active…etc). </p>
 <p>It’s good practice to start mobile first. </p>
 <h4 id="text-effects">Text-effects</h4>
-<p>Use line-through to get it scratched out </p>
+<p>Use line-through to get it scratched out and inline-block when you want it to have a background that only covers the text. </p>
+<h2 id="section-6-project-1---clipboard-website">Section 6: Project 1 - Clipboard website</h2>
+<p>From here you could take the Hero section configuration. 
+The goal is really to create stuff in tailwind.config.js once you have a clear layout so you don’t have to repeat yourself afterwards and just focus on the content. </p>
+<h2 id="section-7891011">Section 7,8,9,10,11:</h2>
+<p>Nevermind this course is bullshit. I’ve requested a refund to Udemy because he’s basically explaining nothing. </p>
 
             ]]>
         </content>
