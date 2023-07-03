@@ -3,7 +3,7 @@
     <title>Maikel&#x27;s Blog</title>
     <link href="https://blog.maikel.dev/feed.xml" rel="self" />
     <link href="https://blog.maikel.dev" />
-    <updated>2023-07-03T09:45:28+02:00</updated>
+    <updated>2023-07-03T10:01:55+02:00</updated>
     <author>
         <name>Maikel</name>
     </author>
@@ -18,7 +18,7 @@
         <id>https://blog.maikel.dev/tailwind-css.html</id>
         <media:content url="https://blog.maikel.dev/media/posts/52/maxresdefault.jpg" medium="image" />
 
-        <updated>2023-07-03T09:45:28+02:00</updated>
+        <updated>2023-07-03T10:01:55+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.maikel.dev/media/posts/52/maxresdefault.jpg" alt="" />
@@ -39,6 +39,25 @@
 <li>Services page, not sure if purchasable straight from there or not. </li>
 <li>Frequently assk questions (his last project) is similar to what I want. With the FAQ.</li>
 </ul>
+<h2 id="section-2-tailwind-fundatmentals---part-1">Section 2: Tailwind Fundatmentals - Part 1</h2>
+<h4 id="whats-that-utility-first-thing">What’s that “Utility First” thing</h4>
+<p>Basically you choose all the CSS in the classes but Tailwind has stuff that already builts creating things from scratch and typing CSS, I see no different between this an Bootstrap. </p>
+<p>The difference between it and Bootstrap is the customisation. </p>
+<h4 id="colours">Colours</h4>
+<p>You can use classes</p>
+<pre><code class="language-html">bg-cyan-500
+outline-cyan-500
+text-red-500
+border-red-500
+accent-red-500
+shadow-red-500
+</code></pre>
+<p>The initial word is what you want to apply the colour, the middle is the colour name, the last is from 0 (clear) to 1000 (completely black). </p>
+<h4 id="spacing">Spacing</h4>
+<p>You can add a file to specify what the default sizes are, but they are all already <a href="https://tailwindcss.com/docs/responsive-design">here</a>, just learn it, it is pretty similar to Boostrap there. </p>
+<p>Here you can target speficic size by using space-y-4 (space vertical of 4) or margin with m, padding with p. </p>
+<h4 id="typography">Typography</h4>
+<p>There are 3 defaults and obviously you can use your own font, use tailwind.config.js to do that. You have 3, your sans, serif and mono but you can change those 3 to whatever you want. </p>
 
             ]]>
         </content>
