@@ -3,7 +3,7 @@
     <title>Maikel&#x27;s Blog</title>
     <link href="https://blog.maikel.dev/feed.xml" rel="self" />
     <link href="https://blog.maikel.dev" />
-    <updated>2023-08-10T18:30:18+02:00</updated>
+    <updated>2023-08-10T18:37:47+02:00</updated>
     <author>
         <name>Maikel</name>
     </author>
@@ -16,15 +16,18 @@
         </author>
         <link href="https://blog.maikel.dev/thoughts.html"/>
         <id>https://blog.maikel.dev/thoughts.html</id>
+        <media:content url="https://blog.maikel.dev/media/posts/53/maxresdefault.jpg" medium="image" />
 
-        <updated>2023-08-10T18:30:18+02:00</updated>
+        <updated>2023-08-10T18:37:47+02:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://blog.maikel.dev/media/posts/53/maxresdefault.jpg" alt="" />
                     Relationship with the fediverse I normally think a lot about the way I interact with the #fediverse thinking whether I am making the most of it or becoming just part of the entertainment. I think it needs to be a 50/50 relationship. You must supply&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://blog.maikel.dev/media/posts/53/maxresdefault.jpg" class="type:primaryImage" alt="" /></p>
                 <h2 id="relationship-with-the-fediverse">Relationship with the fediverse</h2>
 <p>I normally think a lot about the way I interact with the #fediverse thinking whether I am making the most of it or becoming just part of the entertainment. I think it needs to be a 50/50 relationship. You must supply positive interaction while getting the same back. </p>
 <p>And I think I need to cut down on my tooting, because otherwise I’m just in the same place I was when I used Facebook. Also I need more real-life contact with people and this is kind of becoming too…hmm….how do I put it: <strong>addictive</strong></p>
